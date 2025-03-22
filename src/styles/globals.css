@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #171717;
+  --foreground: #fff;
+}
+
+/* .hoverable:hover {
+  border-color: #9333ea; 
+  transform: scale(1.05);
+} */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@media(min-width:320px){
+.xsmall{
+  @apply text-4xl;
+} 
+}
+@media(min-width:374px){
+.small{
+  @apply text-4xl;
+} 
+}
+@media(min-width:470px){
+.small{
+  @apply text-5xl;
+} 
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
