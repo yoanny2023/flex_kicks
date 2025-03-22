@@ -1,6 +1,6 @@
 "use-client"
 import Pagina from '@/components/template/Pagina'
-import React, { useContext, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import React, { useContext,useLayoutEffect, useRef, useState } from 'react'
 import { customers } from '@/assets/images'
 import Testimonial from '@/components/feedback/Testimonial'
 import { forum } from '@/styles/font'

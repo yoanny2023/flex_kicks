@@ -2,7 +2,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
-import { poppins } from "@/styles/font"; // import poppins from font.ts file
 import { forum } from "@/styles/font"; // import poppins from font.ts file
 import gsap from 'gsap'
 

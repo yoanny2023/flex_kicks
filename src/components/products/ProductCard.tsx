@@ -1,16 +1,11 @@
 "use-client";
 import Product from "@/data/model/Produto";
-import { IconBrandWindows, IconShoppingCartX } from "@tabler/icons-react";
+import {IconShoppingCartX } from "@tabler/icons-react";
 import Image from "next/image";
 import React, { useContext, useEffect, useRef, useState } from "react";
 import US from "@/utils/US";
 import CartContext from "@/data/context/CartContext";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRouter } from "next/router";
-
-//gsap.registerPlugin(ScrollTrigger);
 
 interface ProductCardProps {
   product: Product;

@@ -1,6 +1,6 @@
 "use client"
 import ProductContext from "@/data/context/ProductContext"
-import { useContext, useEffect } from "react"
+import { useContext} from "react"
 
 interface FilterProps{
   className?:string

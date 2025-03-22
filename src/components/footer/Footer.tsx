@@ -1,6 +1,7 @@
 "use client"
 import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin } from '@tabler/icons-react'
 import React from 'react'
+
 type FooterProps = {
   width?:string,
 }

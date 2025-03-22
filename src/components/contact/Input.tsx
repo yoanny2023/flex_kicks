@@ -11,7 +11,6 @@ function Input(props: InputProps) {
   const [inputEntry, setInputEntry] = useState("");
 
   function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
-    //console.log("target is:",e.target);
     setInputEntry(e.target.value);
     console.log("estou aqui:", e.target.value);
   }

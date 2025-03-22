@@ -2,12 +2,10 @@ import React, { createContext, useState } from 'react'
 import Product from '../model/Produto'
 import products from '../constant/products'
 
-
 interface ProductContextProps{
   newProductList:Product[]
   categoryValue:string
   onFilterdValue: (value:string) => void
- // setCategoryValue: ()=>void
  filteredProductList:Product[]
 }
 
@@ -27,12 +25,8 @@ export function ProductProvider(props:any) {
     }
   });
 
-  //console.log("filter prod:",filteredProductList);
-  
-
   function onFilterdValue(categoryValue:string){
     setCategoryValue(categoryValue);
-    //setNewProductList(filteredProductList)
   }
 
   const ctx = {newProductList,categoryValue,onFilterdValue,

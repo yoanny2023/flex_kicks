@@ -3,7 +3,6 @@ import { useContext } from "react"
 import ProductSection from "./ProductSection"
 import ProductContext from "@/data/context/ProductContext"
 
-
 function ProductCatalogue() {
   const{categoryValue} = useContext(ProductContext)
   if(categoryValue === "men" ){

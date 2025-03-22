@@ -1,12 +1,12 @@
 "use client"
 import { IconStarFilled } from '@tabler/icons-react'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import React, { useLayoutEffect, useRef } from 'react'
 import { forum } from '@/styles/font'
 import gsap from 'gsap';
 
 interface TestimonialProps{ 
-img:any
+img:string | StaticImageData
 statement:string
 name:string
 position:string

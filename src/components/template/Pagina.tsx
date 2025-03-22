@@ -15,7 +15,6 @@ import OpenMenu from "../navbar/OpenMenu";
 interface PaginaProps {
   children: any;
   onAnimationComplete?: () => void; //Receive callback from Home
-  /* onClick?:()=> void */ 
   className?:string
 }
 
@@ -23,7 +22,6 @@ function Pagina(props: PaginaProps) {
   const{itens} =useContext(CartContext);
   const logoRef = useRef(null)
   const navRef = useRef(null)
-  /*const useRef(null) */  
   const{menuOpen,openMenuHandler} = useContext(contextNavBar);
 
   useEffect(()=>{
@@ -88,34 +86,3 @@ function Pagina(props: PaginaProps) {
 }
 
 export default Pagina;
-
-{/* <div className={`flex flex-col gap-3 h-screen bg-zinc-900`}>
-      <header
-        className={`fixed top-0 z-10 w-full flex justify-between items-center gap-3 px-4 py-2 h-16
-      bg-zinc-900/70 backdrop-blur-2xl border-b border-zinc-800 shadow-md shadow-zinc-950`}
-      >
-        <Logo ref={logoRef} />
-        <Navbar ref={navRef} />
-        <div className="flex gap-4 justify-center items-center">
-          <Filter className="gsap_fcart" />
-          <div className="gsap_fcart flex flex-col  items-center gap-1">
-            <span className="flex justify-center items-center bg-purple-600 w-7 h-7 rounded-full">
-              {itens.length}
-            </span>
-            <Link href="/products">
-              <IconShoppingCart />
-            </Link>
-          </div>
-            <div className='rounded-md p-[2px] border border-[#EFE7D2]
-            hover:cursor-pointer'>
-            {<IconMenu3 onClick={props.onClick} size={24} stroke={1}/>}
-          </div>
-        </div>  
-      </header>
-      <div className="pt-16 flex-grow">
-        <Content>
-          {props.children}
-        </Content>
-      </div>
-      <Footer />
-    </div> */}

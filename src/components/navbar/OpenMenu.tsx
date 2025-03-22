@@ -8,6 +8,7 @@ type MenuBarProps = {
 }
 
 function OpenMenu(props:MenuBarProps) {
+  
   return (
     <div className='gsap_open_menu h-screen w-full bg-[#0a0b0a] p-12 sm:px-16 lg:px-40'>
       <div className={`relative flex justify-center items-center bg-[#111]
