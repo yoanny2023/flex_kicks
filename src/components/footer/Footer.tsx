@@ -2,11 +2,7 @@
 import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin } from '@tabler/icons-react'
 import React from 'react'
 
-type FooterProps = {
-  width?:string,
-}
-
-function Footer(props:FooterProps) { 
+function Footer() { 
   return (
     <div className={`border-t border-zinc-800 shadow-lg shadow-zinc-950 flex items-center justify-between
     px-4 py-2

@@ -1,3 +1,6 @@
+"use-client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import React, { createContext, useEffect, useState } from 'react'
 import CartItem from '../model/CartItem'
 import Product from '../model/Produto'

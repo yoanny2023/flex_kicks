@@ -1,4 +1,6 @@
 "use client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { IconShoe } from '@tabler/icons-react'
 import React from 'react'
 import Flex from '../template/Flex'

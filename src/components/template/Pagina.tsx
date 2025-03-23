@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useContext, useEffect, useRef } from "react";
 import Logo from "../navbar/Logo";
 import Navbar from "../navbar/Navbar";

@@ -1,3 +1,7 @@
+"use-client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React, { createContext, useState } from 'react'
 import Product from '../model/Produto'
 import products from '../constant/products'

@@ -1,3 +1,6 @@
+"use-client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import React, { createContext, useState } from 'react'
 
 interface contextNavBarProps{
