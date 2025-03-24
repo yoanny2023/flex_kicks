@@ -30,14 +30,14 @@ function Contact() {
     <Pagina>
       <div className="flex flex-col gap-3 p-3 h-full overflow-hidden">
         <h1
-          className={`${forum.className} gsap_h1 opacity-0 invisible 
+          className={`${forum.className} gsap_h1 px-5 opacity-0 invisible 
         bg-gradient-to-r from-purple-700 via-violet-500 to-white text-transparent bg-clip-text
          text-4xl sm:text-7xl
       `}
         >
           Join forces with us
         </h1>
-        <p className="gsap_p opacity-0 invisible text-sm font-sans text-zinc-400">
+        <p className="gsap_p px-5 opacity-0 invisible text-sm font-sans text-zinc-400">
         Have questions or need help finding the perfect pair? Contact us—we’re here to assist you every step of the way!
         </p>
         <Flex center className="flex-1 ">
