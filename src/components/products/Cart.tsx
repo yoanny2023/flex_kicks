@@ -16,7 +16,7 @@ function Cart() {
        <span className='font-sans text-sm sm:text-lg md:text-xl'>Shopping Basket</span> 
        <span className='bg-purple-600 text-sm sm:text-lg md:text-xl px-2 py-1 sm:px-4 sm:py-2 rounded-md'>{US.format(totalValue)}</span>
       </div>
-      <div className='flex justify-center flex-wrap gap-3'>
+      <div className='flex justify-center flex-wrap gap-3 px-3'>
       {itens.length ===  0 
         ? <EmptyCart /> 
         :(

@@ -50,7 +50,7 @@ export default function Home() {
       
       <section className="flex flex-col sm:flex sm:flex-row gap-3 w-full h-full
        bg-zinc-900/30 border border-purple-500/30 backdrop-blur-2xl shadow-lg overflow-hidden">
-        <div className="relative inline-flex flex-col sm:w-1/2 h-auto p-5">
+        <div className="relative inline-flex flex-col sm:w-1/2 h-auto p-5 px-7">
           <h1 className={`${forum.className} gsap_h1 xsmall small sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 
             font-black mb-3 opacity-0 invisible
             `}>

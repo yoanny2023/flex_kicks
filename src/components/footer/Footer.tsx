@@ -5,7 +5,7 @@ import React from 'react'
 function Footer() { 
   return (
     <div className={`border-t border-zinc-800 shadow-lg shadow-zinc-950 flex items-center justify-between
-    px-4 py-2
+    px-5 py-2
     `}>
       <span className='text-sm text-zinc-300 font-serif'>Allrights&copy;yoanny_{new Date().getFullYear()}</span>
       <div className='flex gap-3 '>

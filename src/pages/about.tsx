@@ -41,7 +41,7 @@ function About() {
           className='lg:w-[70%] h-full object-contain sm:object-cover rounded-2xl'
           />
         </div>
-        <div className='flex flex-col gap-3 order-1 sm:w-1/2 sm:order-none'>
+        <div className='flex flex-col gap-3 ml-5 order-1 sm:w-1/2 sm:order-none'>
           <p className='mt-3 font-sans text-lg'>About Us</p>
           <h1 className={`${forum.className} gsap_h1 opacity-0 invisible text-4xl lg:text-6xl bg-gradient-to-r from-purple-700 via-violet-500 to-white
            font-bold text-transparent bg-clip-text

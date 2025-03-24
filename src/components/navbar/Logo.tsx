@@ -16,7 +16,7 @@ function Logo(props:LogoProps) {
     <Flex center gap={1} className=''>      
       {<IconShoe color='white' stroke={1} size={28} />} 
       <span className='bg-gradient-to-r from-purple-700 via-violet-500  to-white
-        font-bold text-transparent bg-clip-text'
+        font-bold text-transparent bg-clip-text mr-1'
         >
          FLEXKICKS
       </span>

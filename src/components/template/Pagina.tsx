@@ -50,14 +50,14 @@ function Pagina(props: PaginaProps) {
       <div className={`flex flex-col gap-3 bg-zinc-900 min-h-screen 
       `}>
       <header
-        className={`fixed top-0 z-10 w-full flex justify-between items-center gap-3 px-4 py-2 h-16
+        className={`fixed top-0 z-10 w-full flex justify-between items-center gap:2 sm:gap-3 px-5 py-2 h-16
       bg-zinc-900/70 backdrop-blur-2xl border-b border-zinc-800 shadow-md shadow-zinc-950
       `}
       >
         <Logo ref={logoRef} />
         <Navbar ref={navRef} />
         <div className="flex gap-4 justify-center items-center">
-          <Filter className="gsap_fcart w-20 h-10" />
+          <Filter className="gsap_fcart max-w-20 h-10" />
           <div className="gsap_fcart flex flex-col text-sm  items-center gap-1">
             <span className="flex justify-center items-center bg-purple-600 w-7 h-7 rounded-full">
               {itens.length}
